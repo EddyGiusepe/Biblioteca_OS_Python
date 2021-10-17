@@ -32,9 +32,12 @@ print("##########################")
 # os.getcwd() --> Para saber em que pasta estou atualmente
 print(os.getcwd())
 
-# os.chdir()
-novo_caminho = r"/home/eddygiusepe/5_praticando_Python/"
-print(os.chdir(novo_caminho))
+print("")
+
+# os.chdir() --> Para ir a uma pasta diferente
+novo_caminho = r'/home/eddygiusepe/5_praticando_Python/nova_pasta'
+os.chdir(novo_caminho)
+print(os.getcwd())
 
 
 
